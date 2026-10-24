@@ -1,0 +1,29 @@
+body {
+    background-color: #ff00f0;
+    text-align: center;
+    font-size: 30px;
+    place-items: center;
+    display: grid;
+
+}
+
+.ai_btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 4px solid #f30c0c;
+    border-radius: 999px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.ai_btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
